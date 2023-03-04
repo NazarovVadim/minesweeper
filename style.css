@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 40px;
+}
+
+
+.control{
+    background: #c0c0c0;
+    width: 256px;
+    display: flex;
+    border: 8px solid #c0c0c0;
+    border-bottom: 2px solid #c0c0c0;
+    justify-content: space-between;
+    
+}
+
+.minecounter{
+    display: flex;
+}
+
+.button{
+    display: flex;
+}
+
+.timer{
+    display: flex;
+}
+
+
+
+
+
+.interface{
+    width: 256px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 8px solid #c0c0c0;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.col{
+    /* background-image: url('./imgs/standart.png'); */
+    width: 16px;
+    height: 16px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
